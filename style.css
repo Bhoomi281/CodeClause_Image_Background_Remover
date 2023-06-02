@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&family=Noto+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+.container
+{
+    
+    box-sizing: border-box;
+    border: 5px solid black;
+    border-radius: 5px;
+    height: 450px;
+    width: 50%;
+    background-color: rgb(168, 228, 245);
+    margin-left: 300px;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: 'Bitter', serif;
+font-family: 'Noto Serif', serif;
+}
+h2{
+    font-family: 'Bitter', serif;
+ font-family: 'Noto Serif', serif;
+ color: black;
+  
+
+}
+.row
+{
+    text-align: center;
+    font-family: "Noto Serif", serif;
+    /* color:whitesmoke; */
+    
+}
+.form-group
+{
+    font-size: 25px;
+    padding-top: 15px;
+    text-align: center;
+    margin-top: 20px;
+    color:whitesmoke;
+}
+#fileInput
+{
+    border: 2px solid black;
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 49%;
+    margin-top: 25px;
+    background-color: #4e4f59;
+    color:whitesmoke;
+ 
+}
+.form-control
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.btn
+{
+    border: 2px solid black;
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 50%;
+    margin-top: 25px;
+    background-color: #4e4f59;
+    color:whitesmoke;
+}
+.btn:hover
+{
+    background-color: rgb(38, 189, 231);
+}
+@media (max-width : 1000px) {
+    .container
+{
+    
+    background-color: rgb(168, 228, 245);
+    margin-left: -10px;
+    margin-top: 250px;
+    width: 110%;
+    
+
+}
+.btn
+{
+    width: 90%;
+    margin-top: 25px;
+    background-color: #4e4f59;
+    font-style: normal;
+}
+#fileInput
+{
+    width: 65%;
+    margin-top: 25px;
+    background-color: #4e4f59;
+ 
+}
+   
+  }
